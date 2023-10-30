@@ -35,7 +35,7 @@ class ConfigProvider
 
             ],
             'factories'  => [
-                Handlers\ApiHandler::class => Factories\ApiHandlerFactory::class,
+                Handlers\TestHandler::class => Factories\TestHandlerFactory::class,
             //    Handlers\ContactsHandler::class => Factories\ContactsHandlerFactory::class
             ],
         ];
