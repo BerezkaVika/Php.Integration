@@ -1,3 +1,24 @@
+# Php-интеграция с amoCRM
+Для работы проекта необходимо:
+### 1. установить библиотеку
+![image](https://github.com/BerezkaVika/Php.Integration/assets/145559089/33b82944-168e-4e9f-8462-360b89937019)
+
+### 2. Найти файл TestHandler
+![image](https://github.com/BerezkaVika/Php.Integration/assets/145559089/505969c6-0a27-4761-977c-b59d12ad7b77)
+
+### 3. Заполнить данные поля своими данными
+![image](https://github.com/BerezkaVika/Php.Integration/assets/145559089/a3c3757b-c5a4-41ba-8972-d05c05cb79b7)
+
+### 4. Создать ссылку с помощью ngrok и поместить ее и записать в формате 'вашассылка/auth' в качестве redirectUrl в проекте и в интеграции. Не забудьте использовать url-адрес ngrok в вашем браузере. Не используйте localhost.
+### 5. Чтобы запустить проект через docker, необходимо также выполнить две команды
+![image](https://github.com/BerezkaVika/Php.Integration/assets/145559089/31f3b8c3-228a-4ae3-aceb-f1ede3985d1d)
+
+## Примечание к выполненному ТЗ
+ С помощью mezzio нелегко работать с интерфейсом, и к сожалению, мне не удалось понять, как использовать с ним front end. Именно поэтому вариант моей интеграции рассчитан на создание контакта и сделки только изнутри кода, без Фронтенда. 
+
+
+
+
 # Mezzio Skeleton and Installer
 
 [![Build Status](https://github.com/mezzio/mezzio-skeleton/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/mezzio/mezzio-skeleton/actions/workflows/continuous-integration.yml)
